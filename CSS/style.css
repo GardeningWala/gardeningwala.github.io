@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/Gallery/bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  background-color: #414144f1;
+}
+
+.navContent {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.navContent li {
+  list-style: none;
+  padding: 26px 30px;
+}
+
+.navContent li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navContent li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.rightNav {
+  width: 30%;
+  text-align: right;
+  padding: 0 23px;
+}
+
+.logo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 26%;
+  border: 3px solid white;
+  border-radius: 55px;
+  margin: 5px;
+}
+
+#searchBar {
+  padding: 19px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 9px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 7px 3px;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.bottomNav {
+  margin-top: 40vw;
+  width: 50%;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border: 3px solid white;
+  border-radius: 15px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 70px;
+}
+
+.cheats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.cheats ul li {
+  padding-top: 10px;
+}
+
+.link a img {
+  width: 50px !important;
+  height: 50px !important;
+  margin: 7px !important;
+}
+
+.cheats a h1 {
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.channel {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  font-size: 25px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.c {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
